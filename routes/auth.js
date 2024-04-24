@@ -2,6 +2,7 @@ var express = require('express');
 var passport = require('passport');
 var LocalStrategy = require('passport-local');
 var crypto = require('crypto');
+var session = require('express-session');
 var db = require('../db');
 
 var router = express.Router();
